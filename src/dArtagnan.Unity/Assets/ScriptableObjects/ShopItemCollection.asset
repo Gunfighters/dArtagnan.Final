@@ -1,0 +1,192 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b013998428b4869b4a10af299ebdb08, type: 3}
+  m_Name: ShopItemCollection
+  m_EditorClassIdentifier: 
+  shopItems:
+  - Item:
+      ItemId: 0
+      Price: 0
+      Name: "\uC5C6\uC74C"
+      Description: "\uC5C6\uC74C"
+    icon: {fileID: 0}
+  - Item:
+      ItemId: 1
+      Price: 0
+      Name: "\uC0AC\uB9C9\uC758 \uC2E0\uAE30\uB8E8"
+      Description: "\uC0AC\uAC70\uB9AC\uAC00 \uBA85\uC911\uB960\uC5D0 \uBC18\uBE44\uB840\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 41dba14aa87114b5990628c546c816a8, type: 3}
+  - Item:
+      ItemId: 2
+      Price: 0
+      Name: "\uC190\uB5A8\uB9BC\uC758 \uC800\uC8FC"
+      Description: "\uC7AC\uC7A5\uC804 \uC2DC\uAC04\uC774 \uBA85\uC911\uB960\uC5D0
+        \uBE44\uB840\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: b5fd694fc42294a4592753bda3a72280, type: 3}
+  - Item:
+      ItemId: 3
+      Price: 1
+      Name: "\uC7AD\uD31F"
+      Description: "\uB9E4\uC6B0 \uB0AE\uC740 \uD655\uB960\uB85C \uB9E4\uC6B0 \uD070
+        \uB3C8\uC744 \uC5BB\uC2B5\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 820d456c519784909b71c14935ccd2fc, type: 3}
+  - Item:
+      ItemId: 4
+      Price: 1
+      Name: "\uC0B4\uB8EC\uC758 \uC7AC\uB3C4\uC804"
+      Description: "\uB3CC\uB9BC\uD310\uC744 \uC0C8\uAC83\uC73C\uB85C \uAD50\uCCB4\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 5fa1ae22b9664164daa27a4f0927dc64, type: 3}
+  - Item:
+      ItemId: 12
+      Price: 6
+      Name: "\uBCF4\uC548\uAD00\uC758 \uC870\uC900\uACBD"
+      Description: "\uC774\uC81C \uBA85\uC911\uB960\uC774 \uB192\uC544\uB3C4 \uC0AC\uAC70\uB9AC\uAC00
+        \uC9E7\uC544\uC9C0\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 5b2ccdf3de82449adb9c433db5a872e2, type: 3}
+  - Item:
+      ItemId: 5
+      Price: 7
+      Name: "\uBCF4\uAE09 \uD0C4\uCC3D"
+      Description: "\uCD1D\uC744 \uD55C\uBC88 \uB354 \uC3E0 \uC218 \uC788\uAC8C \uB429\uB2C8\uB2E4.
+        (\uC77C\uD68C\uC6A9)"
+    icon: {fileID: 21300000, guid: 6f70c2010ad85b047aac571b2de25075, type: 3}
+  - Item:
+      ItemId: 6
+      Price: 5
+      Name: "\uCD1D\uC7A1\uC774\uC758 \uC190\uB180\uB9BC"
+      Description: "\uC7A5\uC804 \uC2DC\uAC04\uC774 0.5\uCD08 \uAC10\uC18C\uD569\uB2C8\uB2E4.
+        (\uC911\uCCA9 \uAC00\uB2A5)"
+    icon: {fileID: 21300000, guid: 46f26d3ad99e94a92a4f4f104c022b0b, type: 3}
+  - Item:
+      ItemId: 7
+      Price: 5
+      Name: "\uBAA8\uB798\uD3ED\uD48D \uC7A5\uD654"
+      Description: "\uC774\uB3D9\uC18D\uB3C4\uAC00 \uC57D\uAC04 \uC99D\uAC00\uD569\uB2C8\uB2E4.
+        (\uC911\uCCA9 \uAC00\uB2A5)"
+    icon: {fileID: 21300000, guid: a2646f4f567c14e9ba80f11f76857220, type: 3}
+  - Item:
+      ItemId: 8
+      Price: 8
+      Name: "\uC774\uC911 \uBC29\uC544\uC1E0"
+      Description: "\uC99D\uAC10\uBC84\uD2BC\uC758 \uD6A8\uACFC\uAC00 2\uBC30\uAC00
+        \uB429\uB2C8\uB2E4. (\uC911\uCCA9 \uAC00\uB2A5) (Todo: \uBBF8\uAD6C\uD604)"
+    icon: {fileID: 21300000, guid: bead3956158ca43ebb6a0893b38a001e, type: 3}
+  - Item:
+      ItemId: 20
+      Price: 5
+      Name: "\uAC15\uB3C4\uC655"
+      Description: "\uC801\uC744 \uC3F4\uC11C \uC8FD\uC774\uBA74, \uADF8 \uC801\uC758
+        \uC544\uC774\uD15C\uC744 \uC544\uBB34\uAC70\uB098 \uD558\uB098 \uBE7C\uC557\uC2B5\uB2C8\uB2E4.
+        (\uC77C\uD68C\uC6A9)"
+    icon: {fileID: 21300000, guid: 84d88d33462b3834db36b56dbfd814f4, type: 3}
+  - Item:
+      ItemId: 21
+      Price: 12
+      Name: "\uCCA0\uAC11 \uC870\uB07C"
+      Description: "\uC77C\uD68C\uC6A9 \uBC29\uD0C4\uC870\uB07C\uB97C \uC7A5\uCC29\uD569\uB2C8\uB2E4.
+        \uB2E4\uC74C \uB77C\uC6B4\uB4DC\uC5D0\uB9CC \uC720\uD6A8\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 3adfe0d944bb6f84daf6ca6d6b7db9e7, type: 3}
+  - Item:
+      ItemId: 22
+      Price: 3
+      Name: "\uACF5\uD3EC\uD0C4"
+      Description: "\uC801\uC744 \uC408\uB294\uB370 \uBE57\uB098\uAC00\uBA74, \uADF8
+        \uC801\uC758 \uBA85\uC911\uB960\uC774 10%\uAC00 \uB429\uB2C8\uB2E4. (\uC77C\uD68C\uC6A9)"
+    icon: {fileID: 21300000, guid: 5e6c9f99756a6f7478ae2cdebe547491, type: 3}
+  - Item:
+      ItemId: 9
+      Price: 7
+      Name: "\uAD11\uAE30\uC758 \uC5F0\uB8CC"
+      Description: "\uD30C\uC0B0 \uC9C1\uC804\uC77C \uB54C \uC774\uB3D9\uC18D\uB3C4\uAC00
+        \uB354 \uC99D\uAC00\uD569\uB2C8\uB2E4!"
+    icon: {fileID: 21300000, guid: 67b2152186ffc4d2d873ec4342799329, type: 3}
+  - Item:
+      ItemId: 10
+      Price: 3
+      Name: "\uD0DC\uC591\uC758 \uBD84\uB178"
+      Description: "(Todo: \uBBF8\uAD6C\uD604)"
+    icon: {fileID: 21300000, guid: 728aff4d39fe94e8fabc54c382d5f6a8, type: 3}
+  - Item:
+      ItemId: 16
+      Price: 6
+      Name: "\uD0C8\uC138 \uBA74\uD5C8"
+      Description: "\uB0B4 \uC138\uAE08\uC758 \uC591\uC774 25% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 6bbe44310535f43768ed03213b8e520d, type: 3}
+  - Item:
+      ItemId: 23
+      Price: 0
+      Name: "\uD06C\uB9AC\uC2A4\uB9C8\uC2A4 \uCE74\uC6B0\uBCF4\uC774"
+      Description: "\uBAA8\uC790\uB97C \uC0B0\uD0C0\uBAA8\uC790\uB85C \uBC14\uAFC9\uB2C8\uB2E4(Todo:
+        \uBBF8\uAD6C\uD604)"
+    icon: {fileID: 3047455321101114946, guid: bf4435e1f72cada4d908f7da7a636fbd, type: 3}
+  - Item:
+      ItemId: 15
+      Price: 6
+      Name: "\uC57D\uC790\uC758 \uBCF5\uC218"
+      Description: "\uB098\uBCF4\uB2E4 \uBA85\uC911\uB960\uC774 \uB192\uC740 \uC0AC\uB78C\uC744
+        \uCC98\uCE58\uD560 \uACBD\uC6B0 \uBE7C\uC557\uB294 \uC18C\uC9C0\uAE08\uC774
+        2\uBC30\uAC00 \uB429\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 7f5077902f34e4dcda6e69df4ced83a7, type: 3}
+  - Item:
+      ItemId: 17
+      Price: 3
+      Name: "\uC8FD\uC74C\uC758 \uACC4\uC57D\uC11C"
+      Description: "5\uCD08\uB9C8\uB2E4 1\uB2EC\uB7EC\uB97C \uC9C0\uBD88\uD569\uB2C8\uB2E4.
+        \uC0AC\uB9DD \uC2DC 25\uB2EC\uB7EC\uB97C \uBC1B\uC2B5\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: db0d99fbb9c544fb694834dc776e3e0a, type: 3}
+  - Item:
+      ItemId: 24
+      Price: 6
+      Name: "\uD669\uAE08 \uC0BD"
+      Description: "\uCC44\uAD74 \uBCF4\uC0C1\uC774 50% \uC99D\uAC00\uD569\uB2C8\uB2E4"
+    icon: {fileID: 21300000, guid: e5159202c21ec464bb67877a83b5a9c9, type: 3}
+  - Item:
+      ItemId: 14
+      Price: 3
+      Name: "\uADF8\uB9BC\uC790 \uC0AC\uC218"
+      Description: "\uB0B4 \uBA85\uC911\uB960\uACFC \uC0AC\uAC70\uB9AC\uB97C \uC801\uC5D0\uAC8C
+        \uC228\uAE41\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 77a4947deef682440a4df59eae5ca404, type: 3}
+  - Item:
+      ItemId: 11
+      Price: 6
+      Name: "\uC554\uC2DC\uC7A5 \uAC1C\uC870\uD488"
+      Description: "\uBA85\uC911\uB960\uC774 70%\uB97C \uCD08\uACFC\uD560 \uC218
+        \uC788\uAC8C \uB429\uB2C8\uB2E4. (Todo: \uC624\uBC84\uD50C\uB85C\uC6B0 \uC5B8\uB354\uD50C\uB85C\uC6B0
+        \uAD6C\uD604\uC744 \uC704\uD574 \uC77C\uB2E8 \uBA85\uC911\uB960 \uCD5C\uB300
+        100\uD504\uB85C\uB294 \uBAA8\uB450\uC5D0\uAC8C \uC801\uC6A9\uD574\uB1A8\uC74C
+        => \uB2E4\uB978 \uD6A8\uACFC\uB85C \uBC14\uAFB8\uAC70\uB098 \uD574\uC57C\uD560
+        \uB4EF)"
+    icon: {fileID: 21300000, guid: 5b2ccdf3de82449adb9c433db5a872e2, type: 3}
+  - Item:
+      ItemId: 13
+      Price: 5
+      Name: "\uACE0\uC694\uD55C \uC0AC\uC218"
+      Description: "\uD55C \uC790\uB9AC\uC5D0 \uAC00\uB9CC\uD788 \uC788\uC73C\uBA74
+        \uC0AC\uAC70\uB9AC\uAC00 1\uCD08\uB9C8\uB2E4 \uC870\uAE08\uC529 \uC99D\uAC00\uD569\uB2C8\uB2E4.
+        \uC6C0\uC9C1\uC774\uBA74 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: cc54389607db6a143855a71c96f56049, type: 3}
+  - Item:
+      ItemId: 18
+      Price: 4
+      Name: "\uC740\uD589\uAC00\uC758 \uBD80\uC801"
+      Description: "\uB77C\uC6B4\uB4DC\uAC00 \uB05D\uB0A0 \uB54C\uB9C8\uB2E4 \uD604\uC7AC
+        \uC18C\uC9C0\uAE08\uC758 25%\uB97C \uC774\uC790\uB85C \uBC1B\uC2B5\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: 130f333dd7f07a947b17de0bea6d7e00, type: 3}
+  - Item:
+      ItemId: 19
+      Price: 2
+      Name: "\uB2E8\uACE8 \uC190\uB2D8"
+      Description: "\uBA85\uC911\uB960 \uB3CC\uB9BC\uD310\uC744 \uB3CC\uB9AC\uBA74,
+        50% \uD655\uB960\uB85C \uADF8 \uB2E4\uC74C \uBE44\uC6A9\uC774 0\uC6D0\uC774
+        \uB429\uB2C8\uB2E4."
+    icon: {fileID: 21300000, guid: ef18b5603bf054e9eaf0ddf107d19476, type: 3}

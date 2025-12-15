@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8939f1c4f14a4e2cb808775c8b43c6e4, type: 3}
+  m_Name: CostumeCollection
+  m_EditorClassIdentifier: 
+  costumes:
+  - id: 1
+    name: "\uBCF4\uC548\uAD00"
+    character: {fileID: 1028175867451471772, guid: 9c3f5b613a04d4d1188ceeea2e5eb7bd, type: 3}
+  - id: 2
+    name: "\uC6B0\uC8FC\uBE44\uD589\uC0AC"
+    character: {fileID: 149336223046810515, guid: b9083132edcf8427480fdbf3b231f703, type: 3}
+  - id: 3
+    name: "\uB9C8\uD53C\uC544"
+    character: {fileID: 4452493612967248724, guid: b66a347d4a749443db41ecc7a56df56b, type: 3}
+  - id: 4
+    name: "\uC544\uAE30 \uB9C8\uD53C\uC544"
+    character: {fileID: 4305574814564688528, guid: 55a76ece3e15a43d28353f4633e2c17a, type: 3}
+  - id: 5
+    name: "\uC554\uC0B4\uC790"
+    character: {fileID: 4462915354860328758, guid: 378054c9b8edd47c6b83769aa25de0a5, type: 3}
+  - id: 6
+    name: "\uD22C\uBA85\uC778\uAC04"
+    character: {fileID: 4582532889098796577, guid: 984f87cbc093b4f1c8d983e3f580ac7d, type: 3}
+  - id: 7
+    name: "\uC18C\uBC29\uAD00"
+    character: {fileID: 5452567142471296955, guid: 71c2087feeee74231ba50bc9b03ae532, type: 3}
+  - id: 8
+    name: "\uC774\uC0C1\uD55C \uC18C\uB144 "
+    character: {fileID: 3224425476245901515, guid: b4d262e3dae944705aaa208af7311f1f, type: 3}
+  - id: 9
+    name: "\uC774\uC0C1\uD55C \uC18C\uB140"
+    character: {fileID: 5583439929978574628, guid: 1caa88cc1e32748e9b94510c8058b5f1, type: 3}
+  - id: 10
+    name: "\uB3C5\uD2B9\uD55C \uC18C\uB140"
+    character: {fileID: 3170347339050956967, guid: 2d18ca8a2d3dc4bda83c70dde7e61224, type: 3}
+  - id: 11
+    name: "\uD654\uB09C \uC18C\uB140"
+    character: {fileID: 1740293700638609406, guid: d4cd064fbb2864c2e89c45ffa4468ebf, type: 3}
+  - id: 12
+    name: "\uD558\uB140"
+    character: {fileID: 4616814001145136814, guid: 86fa07feaa71b439e985a0d6449d0ab3, type: 3}
+  - id: 13
+    name: "\uBBF8\uB2C8\uAC74"
+    character: {fileID: 6359602323428202580, guid: 94d1fb0f1940d40139f34e9e710996b7, type: 3}
+  - id: 14
+    name: "\uD638\uB450\uAE4C\uAE30 \uBCD1\uC815"
+    character: {fileID: 6536614186561562303, guid: b9f0004bd9e904d0c952c8ad67af6b47, type: 3}
+  - id: 15
+    name: "\uACBD\uCC30"
+    character: {fileID: 4891834498250724854, guid: a6e7ab0fdfe914a9da4792722e81c4e9, type: 3}
+  - id: 16
+    name: "\uB8E8\uB3CC\uD504"
+    character: {fileID: 8736442352296108924, guid: d11e7a9bedf3749c786ec79ec21e7808, type: 3}
+  - id: 17
+    name: "\uC120\uC6D0"
+    character: {fileID: 6915303979505879804, guid: 525056c0dc3c84b34a795ed0eb135938, type: 3}
+  - id: 18
+    name: "\uC0B0\uD0C0"
+    character: {fileID: 3522187900423068368, guid: f0984de0d4f5243019efddd54eeabf32, type: 3}
+  - id: 19
+    name: "\uD2B9\uACF5\uB300"
+    character: {fileID: 7128804666792965225, guid: 4ee8406255b31446f8984f9dc3ecfb54, type: 3}
+  - id: 20
+    name: "\uC804\uCC28\uBCD1"
+    character: {fileID: 2803269539665287101, guid: f494f752922cb459db528910770ed66d, type: 3}

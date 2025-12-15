@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5343501808411553705
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6087098892770807860}
+  - component: {fileID: 5035310185955526301}
+  m_Layer: 0
+  m_Name: CharacterEditor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6087098892770807860
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343501808411553705}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5035310185955526301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5343501808411553705}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e3ee0b5972fd424e87d8494571d6ffda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpriteCollection: {fileID: 11400000, guid: 91824a520d391974a88f36ad4936d63a, type: 2}
+  IconCollection: {fileID: 11400000, guid: 6d3e8155dfead924fbcd576490325d1f, type: 2}
+  RenderCostumeToTexture: {fileID: 0}
+  Tabs: {fileID: 0}
+  Inventory: {fileID: 0}
+  ItemName: {fileID: 0}
+  ShowOwnedOnly: {fileID: 0}
+  idleToggle: {fileID: 0}
+  walkToggle: {fileID: 0}
+  fireToggle: {fileID: 0}
+  mineToggle: {fileID: 0}
+  dieToggle: {fileID: 0}
+  shopModeToggle: {fileID: 0}
+  closetModeToggle: {fileID: 0}
+  gachaButtonBox: {fileID: 0}
+  previewText: {fileID: 0}
+  closetFunctionButtons: {fileID: 0}
+  applyButton: {fileID: 0}
+  resetToOriginalButton: {fileID: 0}
+  unequipAllButton: {fileID: 0}
+  DefaultMaterial: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  EyesPaintMaterial: {fileID: 2100000, guid: 3e78a9b3616c45e5a6cbd9fca765b55f, type: 2}
+  EquipmentPaintMaterial: {fileID: 2100000, guid: b67e1036325c49a4a378ba14ec243c30, type: 2}
+  HuePaintMaterial: {fileID: 0}
+  PaintParts:
+  - Body
+  - Head
+  - Ears
+  - Hair
+  - Beard
+  - Eyes
+  - Eyebrows
+  - Makeup
+  PaintButton: {fileID: 0}
+  ColorPicker: {fileID: 0}
+  ColorSetup: {fileID: 0}
+  CollectionSorting:
+  - Basic
+  - Epic
+  CollectionBackgrounds:
+  - Name: Basic
+    Sprite: {fileID: 21300000, guid: 407123b69c6ad85469da2466fe776a87, type: 3}
+  - Name: Cyberpunk
+    Sprite: {fileID: 21300000, guid: a7a9761b8498fc3469b31675a4250f17, type: 3}
+  - Name: Christmas
+    Sprite: {fileID: 21300000, guid: bd113ac01de518d43abfd2afc18e75f5, type: 3}
+  EditorOnlyButtons: []
+  AssetUrl: http://u3d.as/2V4T
+  SelectedTabIcon:
+    value: {fileID: 0}
+  SelectedTabPartString:
+    value: 
+  BackgroundGray: {fileID: 21300000, guid: c49e3554a0acc074595cbdacdf2a4eca, type: 3}
+  BackgroundGreen: {fileID: 21300000, guid: bd113ac01de518d43abfd2afc18e75f5, type: 3}
+  BackgroundBrown: {fileID: 21300000, guid: 407123b69c6ad85469da2466fe776a87, type: 3}
+  BackgroundBlue: {fileID: 21300000, guid: a7a9761b8498fc3469b31675a4250f17, type: 3}
+  BackgroundPurple: {fileID: 21300000, guid: 9754d7076e83fab4ab57610c865ff5fc, type: 3}
+  BackgroundRed: {fileID: 21300000, guid: 9df088df15c9f2347bd8c55d54b50b84, type: 3}
+  BackgroundYellow: {fileID: 21300000, guid: 83530cebb235aae458200bd7d569a5ac, type: 3}
+  purchaseTooltipTransform: {fileID: 0}
+  purchaseTooltipItemName: {fileID: 0}
+  purchaseTooltipItemRarity: {fileID: 0}
+  purchaseTooltipItemPrice: {fileID: 0}
+  purchaseTooltipIsOwned: {fileID: 0}
+  purchaseTooltipButton: {fileID: 0}

@@ -1,0 +1,34 @@
+# Unity 프로젝트 (용량 큼)
+src/dArtagnan.Unity/
+
+# Node.js dependencies
+src/dArtagnan.Lobby/node_modules/
+node_modules/
+
+# 로그 파일
+logs/
+*.log
+
+# Git
+.git/
+.gitignore
+
+# 빌드 결과물
+**/bin/
+**/obj/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 기타
+*.md
+.github/
+*.sh
+*.bat
+*.ps1

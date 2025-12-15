@@ -1,0 +1,12 @@
+bin/
+obj/
+/packages/
+riderModule.iml
+/_ReSharper.Caches/
+/.cursor/
+**/.claude/
+**/node_modules/
+**/publish/
+*.keystore
+*.env*
+logs/

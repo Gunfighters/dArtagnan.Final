@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "22365062426",
+    "project_id": "d-artagnan-706b1",
+    "storage_bucket": "d-artagnan-706b1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:22365062426:android:53f8e982d75d82823918a3",
+        "android_client_info": {
+          "package_name": "com.Gunfighters.dArtagnan"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1Tsomngfpe8_rhwv93bxcq8T34F_ZaDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

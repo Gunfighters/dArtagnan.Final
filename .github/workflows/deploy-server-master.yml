@@ -1,0 +1,44 @@
+name: Deploy App to EC2 (Master)
+
+on:
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - master
+  #   paths:
+  #     - src/dArtagnan.Server/**
+  #     - src/dArtagnan.Lobby/**
+  #     - src/dArtagnan.Shared/**
+
+  #   tags:
+  #     - '**'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Deploy to EC2
+        uses: appleboy/ssh-action@v1.0.0
+        with:
+          host: gunfighters.site
+          username: ubuntu
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            # 1. 프로젝트 경로로 이동
+            cd /home/ubuntu/dArtagnan
+
+            # 2. 최신 소스코드 및 태그 동기화
+            echo "Pulling latest source code and tags..."
+            git fetch --all --tags
+            git pull
+
+            # 3. 현재 최신 태그 확인 (디버그용)
+            LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "no-tag")
+            echo "Latest tag on server: ${LATEST_TAG}"
+
+            # 4. 서비스 재시작
+            echo "Restarting application service..."
+            sudo systemctl restart myapp-v2.service
+
+            echo "✅ Deployment completed successfully!"

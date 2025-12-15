@@ -1,7 +1,10 @@
-# D'Artagnan
+# 달타냥 D'Artagnan
 
 A real-time multiplayer probability-based battle royale game inspired by the "Gunslinger Theory" from StarCraft II Arcade.
 스타크래프트 II 아케이드의 '총잡이 이론'에서 영감을 받은 실시간 멀티플레이어 확률형 배틀로얄 게임입니다.
+
+## 구조
+달타냥은 클라이언트, 서버, API가 한데 모여 있는 모노레포 구조를 띠고 있습니다. `/src`에 들어가서 각 폴더를 직접 확인해보세요.
 
 ## Quick Start | 빠른 시작
 
@@ -42,24 +45,17 @@ Game Servers (Docker containers) - Dynamic ports
 - 게임 서버: Docker 컨테이너 (localhost)
 
 #### 프로덕션 환경 (dartagnan.shop)
-- Unity 클라이언트: `https://dartagnan.shop` 선택  
-- Nginx: HTTPS/WSS → HTTP/WS 변환
-- 로비 서버: `http://localhost:3000` (백엔드)
+- Unity 클라이언트: `https://gunfighters.site` 선택  
 - 게임 서버: Docker 컨테이너 (도메인 기반)
 
 ### 주요 기능
 
-- **크로스 플랫폼**: Windows, Android, iOS
+- **크로스 플랫폼**: Android, iOS
 - **실시간 매칭**: WebSocket 기반 빠른 매칭
 - **동적 스케일링**: Docker 컨테이너 자동 생성/삭제
-- **보안 통신**: HTTPS/WSS (모바일 호환)
 
 ## Requirements | 요구사항
-- .NET 8.0+
-- Node.js 18+
-- Docker 
-- MySQL
-- Unity 2022.3 LTS+
+- Unity 6000+
 
 ## Acknowledgments | 감사의 말
 
